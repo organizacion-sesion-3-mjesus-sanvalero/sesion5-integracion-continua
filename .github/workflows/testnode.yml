@@ -3,10 +3,8 @@ name: Ejecución de tests en Node con GitHub Actions
 on:
   push:
     # Ejecutar la acción al hacer un push a la rama "master"
-    branches: [ master ]
-  pull_request:
-    # Ejecutar la acción al hacer una pull request a la rama "master"
-    branches: [ master ]
+    branches: [ main ]
+
 
 jobs:
   build:
